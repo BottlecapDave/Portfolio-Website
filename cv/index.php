@@ -91,9 +91,9 @@
 
 				echo "<ul>\n";
 
-				foreach ($item->Tasks as $task) {
-					$convertedTask = $Parsedown->text($task->Task);
-					echo "<li class=\"employment-task\">{$convertedTask}</li>\n";
+				foreach ($item->Duties as $duty) {
+					$convertedDuty = $Parsedown->text($duty->Duty);
+					echo "<li class=\"employment-task\">{$convertedDuty}</li>\n";
 				}
 
 				echo "</ul>\n";
