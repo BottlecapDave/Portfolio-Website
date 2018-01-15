@@ -1,0 +1,62 @@
+p, h1, h2, h3, h4, h5, h5.intro, #left-panel #twitter_div ul li
+{
+	margin: 0px;
+	font-family: arial, sans-serif;
+}
+
+h1, h3, h4, h5, h5.intro, a
+{
+	color: #6ECAFF;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+h1
+{
+	text-align: left;
+	color: #666;
+	font-size: 2em;
+}
+
+h2
+{
+	font-weight: normal;
+	font-size: 1.3em;
+	color: #FFF;
+}
+
+h2 a
+{
+	color: #FFF;
+}
+
+h4
+{
+	font-size: 2em;
+}
+
+h5, h5.intro
+{
+	font-size: 1em;
+}
+
+h5.intro
+{
+	text-align: center;
+	margin: 30px 20px;
+}
+
+h5.intro a
+{
+	text-decoration: underline;
+}
+
+p
+{
+	margin: 1em 0px;
+	font-size: 0.9em;
+}

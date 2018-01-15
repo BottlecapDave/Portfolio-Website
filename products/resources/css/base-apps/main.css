@@ -1,0 +1,35 @@
+@import 'font.css';
+@import '../../../../resources/css/main.css';
+
+#wrapper #body .feature-section
+{
+	display: table;
+	padding: 40px 20px;
+}
+
+#wrapper #body .feature-section .screenshot
+{
+	float: left;
+	width: 20%;
+}
+
+#wrapper #body .feature-section .screenshot img.screenshot
+{
+	width: 160px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wrapper #body .feature-section .details
+{
+	float: left;
+	width: 80%;
+}
+
+#wrapper #body #purchase
+{
+	clear: both;
+	padding: 20px;
+	text-align: center;
+}

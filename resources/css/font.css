@@ -1,0 +1,26 @@
+h1
+{
+	font-size: 2em;
+}
+
+h4
+{
+	text-align: center;
+}
+
+p.intro
+{
+	text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+	h1
+	{
+		font-size: 4em;
+	}
+
+	h3
+	{
+		font-size: 2em;
+	}
+}

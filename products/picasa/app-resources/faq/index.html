@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="../resources/css/main.css" />
+		<link rel="icon" type="image/png" href="../resources/images/icon.png" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+		<meta name="MobileOptimized" content="width" />
+		<meta name="HandheldFriendly" content="true" />
+		<title>FAQ | Pix Casa</title>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="header-content">
+					<img src="../resources/images/icon.png" />
+					<h1>FAQ | Pix Casa</h1>
+				</div>
+			</div>
+			<div id="body">
+				<h2>Pix Casa doesn't seem to be backing up my pictures. Is the application broken?</h2>
+				<p>By default, Pix Casa won't backup your pictures. We respect your privacy, and believe it should be up to you to turn it on. You can do so either by swiping to the "Backup" page in the main application and flicking the switch, or to give you further configurability, you can go to the "Backup" page within the settings menu.</p>
+				<p>If once turned on the application still doesn't seem to be backing up your photos, it could be for a number of reasons:</p>
+				<ul>
+					<li><p>Your phone doesn't have a data connection.</p></li>
+					<li><p>Your phone hasn't met the data restrictions you have imposed on backups via application settings (e.g. only via wifi).</p></li>
+					<li><p>The background service has been turned off in the Batter Saver app. This can be determined by performing the following steps</p></li>
+					<ul class="numeric-list">
+						<li><p>Navigate to the Batter Saver app on your phone.</p></li>
+						<li><p>Once launched, find "Pix Casa" and tap to open the settings for this app.</p></li>
+						<li><p>The toggle next to "Allow app to run in the background" should be set to the on position.</p></li>
+					</ul></p></li>
+					<li><p>Your phone is in Batter Saver mode, The backup service won't run when your phone is in Battery Saver mode. Please note, that there is an issue with some Windows Phone background agents, where the option "Allow this app to run in the background even when Batter Saver is on" available in the Batter Saver app is ignored. Pix Casa suffers from this issue and is beyond our power to make this not the case. For more information on this issue, please see this <a href="http://blogs.msdn.com/b/wsdevsol/archive/2015/04/23/windows-phone-8-1-battery-saver-background-agents-and-background-tasks.aspx" title="More information on Battery Saver issue">blog post</a>.</p></li>
+					<li><p>A photo in your camera roll has failed for some reason. You can check the state of the photos in your camera roll by clicking the "View upload status" button on the "Backup" page within the application's settings.</p></li>
+				</ul>
+				<h2>What photos does Pix Casa backup automatically?</h2>
+				<p>If configured to do so, Pix Casa will backup all photos located in the phone's camera roll that of one of the following types:</p>
+				<ul>
+					<li><p>jpeg</p></li>
+					<li><p>bmp</p></li>
+					<li><p>png</p></li>
+					<li><p>tiff</p></li>
+				</ul>
+				<h2>How often does Pix Casa back up my pictures?</h2>
+				<p>Pix Casa will aim to backup one picture roughly every hour. This backup process is dependent on a number of variables including data restrictions that you may have imposed (e.g. only on WiFi) and the nature of how Windows Phone executes background services.</p>
+				<p>In addition, Pix Casa will attempt to backup as many photos as possible within a 10 minute period when your phone meets all of the following requirements:</p>
+				<ul>
+					<li><p>Connected to mains power</p></li>
+					<li><p>Connected to a WiFi hotspot</p></li>
+					<li><p>Phone battery is greater or equal to 90%</p></li>
+					<li><p>The phone is not being interacted with by you, the user</p></li>
+				</ul>
+				<h2>I don't want my backed up photos to count towards my allowance. Can Pix Casa help with this?</h2>
+				<p>Yes it can! Within the settings of the application, you can configure the target size that photos are backed up as. These are:</p>
+				<ul>
+					<li><p>The original picture size.</p></li>
+					<li><p>A maximum size of 1600x1600. Perfect for prints.</p></li>
+					<li><p>A maximum size of 1024x1024. Perfect for sharing online.</p></li>
+					<li><p>A maximum size of 640x640. Perfect for publishing to blogs.</p></li>
+				</ul>
+				<p style="text-decoration: italic">Target sizes have been selected based on recommendations <a href="https://support.google.com/picasa/answer/106867?hl=en-GB">laid out by Picasa</a>.</p>
+				<h2>I have a phone that takes high resolution images (e.g. Nokia Lumia 1020). Does your application backup these images?</h2>
+				<p>Unfortunately, high resolution images are not available to third party applications unless the application takes the photo. Therefore, Pix Casa will not backup your high resolution photos. It will however, backup the lower resolution images, which are still very good for prints, sharing online, etc.</p>
+				<h2>I've just installed/re-installed the application and I want it to ignore all current photos. How do I achieve this?</h2>
+				<p>This can be easily achieved via the following steps:</p>
+				<ul class="numeric-list">
+					<li><p>Install Pix Casa on your device.</p></li>
+					<li><p>Launch the application and sign in with your desired credentials.</p></li>
+					<li><p>Wait ~1 hour for the application to index your camera roll photos in the background. Don't worry, you can do other things on your phone while you wait.</p></li>
+					<li><p>Once ~1 hour has passed, go into the Pix Casa settings and configure your backup settings.</p></li>
+					<li><p>Tap the button entitled "View pending uploads" to see your camera roll photos that are waiting to be backed up.</p></li>
+					<li><p>Tap the three dots (...) in the bottom right hand corner of the screen to launch the more menu and tap "Ignore all items". When asked to confirm, tap "Yes".</p></li>
+				</ul>
+				<p>All current pictures in your camera roll will now not be backed up and all future pictures will be.</p>
+				<h2>I can't seem to see my albums within Pix Casa. Am I doing something wrong?</h2>
+				<p>This application has been designed to provide facilities for interacting with Picasa by "extending" the Windows Phone operating system. This means that to view your albums, you're expected to go through the native photos hub, where all of your Picasa albums are available.</p>
+				<h2>I'm trying to share an image from another app, but Pix Casa isn't available in the list. Is something broken?</h2>
+				<p>You will only be able to share images to Pix Casa if the target image is a type that is supported by Picasa. The supported types are:</p>
+				<ul>
+					<li><p>jpeg</p></li>
+					<li><p>bmp</p></li>
+					<li><p>png</p></li>
+					<li><p>tiff</p></li>
+				</ul>
+				<p>It also might be that the application hasn't been updated to support the in-built sharing mechanism for Windows Phone, which is what Pix Casa uses.</p>
+				<h2>Do you offer an "ad-free" version?</h2>
+				<p>At the present time, an "ad-free" version is not available. An option is being considered for a future release.</p>
+				<h2>Are videos supported?</h2>
+				<p>At the present time, videos are neither backed up nor viewable via the photo hub.</p>
+				<h2>Can I see the photos of my Picasa contacts?</h2>
+				<p>At the present time, this feature isn't available.</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>&copy; <a href="http://www.davidskendall.co.uk" title="View main site">David Kendall</a> 2016</p>
+		</div>
+	</body>
+</html>

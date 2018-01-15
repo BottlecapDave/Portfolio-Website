@@ -1,0 +1,2 @@
+desktop - 818x446
+mobile - 225x402

@@ -1,0 +1,17 @@
+h4 {
+	color: #666;
+	font-size: 0.9em;
+	margin: 2px 0px;
+}
+
+h5 {
+	color: #666;
+	font-size: 0.75em;
+	margin: 2px 0px;
+}
+
+.employment-task strong
+{
+	color: #666;
+	font-weight: 900;
+}

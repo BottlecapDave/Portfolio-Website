@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Changelog xmlns="http://www.davidskendall.co.uk/Changelog" Product="Point Companion">
+  <Version Version="1.2.0.0">
+    <Features>
+      <Item>You can now update the thresholds and notifications you receive when certain events go off for your individual Points within the app</Item>
+      <Item>Glance information for your devices is now on the home screen. See the temperature and humidity levels without having to go into the device</Item>
+      <Item>See battery history for the last 24 hours, 7 days or 30 days in graph form</Item>
+      <Item>Added the ability to ignore notifications that are of a certain age. This is perfect for those devices that are not always on.</Item>
+    </Features> 
+    <Enhancements>
+      <Item>Updated to v1 of Point APIs</Item>
+      <Item>Added actions for signing up for a Point account and adding devices which explain to new users that the feature isn't currently available</Item>
+    </Enhancements>
+    <BugFixes>
+      <Item>The main screen no longer reloads data when resizing on PC</Item>
+      <Item>The timeline now refreshes when coming back to the app from a suspended state</Item>
+    </BugFixes>
+  </Version>
+  <Version Version="1.1.0.0">
+    <Features>
+      <Item>They say more is better, so now you can filter results by the last 30 days. Now you can see a whole months worth of data (or just under in some cases, or just over for February).</Item>
+      <Item>Temperatures can now be displayed in fahrenheit.</Item>
+    </Features> 
+    <Enhancements>
+      <Item>Refresh button is now present on desktop version of the app. Refreshing!</Item>
+      <Item>Charts now have a new look which allow you to zoom in and see more detail.</Item>
+      <Item>The timeline has been updated to look more like a timeline. It is also the ground work for dark/light themes</Item>
+      <Item>Added missing timeline events for presence (arrived and left) and "back to normal"</Item>
+    </Enhancements>
+    <BugFixes>
+      <Item>Battery indicator will hopefully be more accurate. Ongoing work is still being made.</Item>
+    </BugFixes>
+  </Version>
+  <Version Version="1.0.0.0">
+    <Features>
+      <Item>View events of all your points via the timeline</Item>
+      <Item>View the past 24 hours or 7 days of temperature, humidity and sound data</Item>
+      <Item>Get notifications on the events that matter</Item>
+      <Item>See your most recent timeline events via the live tile</Item>
+    </Features>
+    <Enhancements>
+      <Item>None - initial release</Item>
+    </Enhancements>
+    <BugFixes>
+      <Item>None - initial release</Item>
+    </BugFixes>
+  </Version>
+</Changelog>

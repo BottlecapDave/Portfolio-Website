@@ -1,0 +1,103 @@
+@import "../../../resources/css/base.css";
+
+.product-wrapper
+{
+	display: flex;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.product-image
+{
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+.product-image img
+{
+	margin: auto;
+	max-width: 100%;
+	max-height: auto;
+}
+
+.product-info
+{
+	float: left;
+	width: 50%;
+	padding: 2em 0em;
+}
+
+.product-info h4
+{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.product-info p
+{
+	margin: 10px 0px;
+}
+
+p.product-download
+{
+	margin: 0.5em 0em;
+	padding: 0.5em 0em;
+	background-color: #6ECAFF;
+	text-align: center;
+}
+
+p.product-download a
+{
+	color: #FFFFFF;
+}
+
+p.product-download
+{
+	color: #FFFFFF;
+}
+
+p.external-links
+{
+	text-align: center;
+	color: #AAAAAA;
+}
+
+.product-review
+{
+	width: 100%;
+	padding: 30px 0px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+p.product-review-quote
+{
+	text-align: center;
+	font-style: italic;
+	font-size: 1em;
+	color: #999999;
+}
+
+p.product-review-source
+{
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+	.product-wrapper
+	{
+		display: flex; 
+		flex-direction: column;
+	}
+
+    .product-image
+	{
+		order: 1;
+		width: 100%;
+	} 
+
+	.product-info
+	{
+		order: 2;
+		width: 100%;
+	} 
+}

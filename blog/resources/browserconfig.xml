@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="http://www.davidskendall.co.uk/resources/images/icon_70x70.png"/>
+      <square150x150logo src="http://www.davidskendall.co.uk/resources/images/icon_150x150.png"/>
+      <wide310x150logo src="http://www.davidskendall.co.uk/resources/images/icon_310x150.png"/>
+      <square310x310logo src="http://www.davidskendall.co.uk/resources/images/icon_310x310.png"/>
+      <TileColor>#6ECAFF</TileColor>
+    </tile>
+    <notification>
+      <polling-uri src="http://notifications.buildmypinnedsite.com/?feed=http://blog.davidskendall.co.uk/feeds/posts/default?alt=rss&amp;id=1"/>
+      <polling-uri2 src="http://notifications.buildmypinnedsite.com/?feed=http://blog.davidskendall.co.uk/feeds/posts/default?alt=rss&amp;id=2"/>
+      <polling-uri3 src="http://notifications.buildmypinnedsite.com/?feed=http://blog.davidskendall.co.uk/feeds/posts/default?alt=rss&amp;id=3"/>
+      <polling-uri4 src="http://notifications.buildmypinnedsite.com/?feed=http://blog.davidskendall.co.uk/feeds/posts/default?alt=rss&amp;id=4"/>
+      <polling-uri5 src="http://notifications.buildmypinnedsite.com/?feed=http://blog.davidskendall.co.uk/feeds/posts/default?alt=rss&amp;id=5"/>
+      <frequency>180</frequency>
+      <cycle>1</cycle>
+    </notification>
+  </msapplication>
+</browserconfig>

@@ -1,0 +1,140 @@
+@import "basefont.css";
+
+html, body 
+{
+	margin: 0px;
+	padding: 0px;
+    height: 100%;
+}
+
+#header 
+{
+	margin: auto;
+	width: 22em;
+}
+
+#logo-wrapper
+{
+	float: left;
+	width: 100%;
+}
+
+#logo-wrapper img 
+{
+	float: left;
+	margin: 10px;
+	width: 90px;
+	height: 90px;
+}
+
+#logo-text-wrapper
+{
+	margin: 20px 0px;
+	overflow: hidden;
+}
+
+#navigation
+{
+	clear: both;
+	margin: 0px;
+	padding: 5px 0px;
+}
+
+#navigation ul
+{
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+	text-align: center;
+}
+
+#navigation ul li, #navigation ul li h2
+{
+	margin: 0px 10px;
+	display: inline;
+}
+
+#navigation ul li a
+{
+	display: inline-block;
+	color: #6ECAFF;
+}
+
+#navigation ul li.navigation-selection
+{
+	background-color: #6ECAFF;
+	padding: 10px;
+}
+
+#body
+{
+	clear: both;
+	width: 92%;
+	min-height: 200px;
+	margin: 0px auto;
+	max-width: 1024px;
+	display: table;
+	padding: 1% 4%;
+}
+
+#footer
+{
+	clear: both;
+	display: grid;
+}
+
+#footer p
+{
+	margin: 0.5em;
+	font-family: arial, sans-serif;
+	font-size: 0.7em;
+	text-align: center;
+	display: block;
+}
+
+#social-wrapper
+{
+	float: left;
+	margin: auto;
+	width: auto;
+	display: block;
+}
+
+#social-wrapper .social-item
+{
+	float: left;
+	padding: 0.2em;
+}
+
+hr 
+{
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	background-color: 1px #FFFFFF;
+}
+
+@media screen and (min-width: 800px) 
+{
+	#header 
+	{
+		float: left;
+		width: 100%;
+	}
+
+	#logo-wrapper
+	{
+		width: 350px;
+	}
+
+    #navigation
+    {
+    	clear: none;
+    	overflow: hidden;
+		margin: 30px 0px;
+    }
+
+    #navigation ul
+    {
+    	text-align: right;
+    }
+}

@@ -1,0 +1,57 @@
+@import "font.css";
+
+html, body {
+	margin: 0px;
+}
+
+#wrapper
+{
+	display: table;
+	width: 100%;
+}
+
+#header
+{
+	float: left;
+	width: 100%;
+	background: #6ECAFF;
+}
+
+#header #header-content
+{
+	margin: auto;
+	max-width: 1024px;
+}
+
+#header #header-content img 
+{
+	float: left;
+}
+
+#body
+{
+	margin: auto;
+	clear: both;
+	padding: 10px;
+	max-width: 1024px;
+}
+
+#body ul.numeric-list
+{
+	list-style-type: decimal-leading-zero;
+}
+
+/* Footer */
+
+#footer
+{
+	float: clear;
+	height: 20px;
+}
+
+#footer p
+{
+	margin: 10px;
+	font-size: 0.6em;
+	text-align: center;
+}

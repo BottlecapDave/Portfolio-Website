@@ -1,0 +1,163 @@
+{
+	"Profile": "I am a proficient, hardworking and loyal person with 7 years of commercial experience. I aim to develop efficient, clean and easily maintainable code primarily in the C# language. I also expand this philosophy to any new languages I may be exposed to. I am interested in learning new technologies outside of work, which has lead to my recent roles at MixRadio and REPL Group through the self learning of Windows application development and Xamarin.\n\nI am seeking a role where I can take my existing experience and use it to develop new and interesting experiences, as well as expand my capabilities where possible.",
+	"Skills": [
+		{
+			"Skill": "C#"
+		},
+		{
+	    	"Skill": "Rest web service integration"
+		},
+	    {
+	    	"Skill": "Xamarin"
+		},
+		{
+	    	"Skill": "Creation of .NET based web (SOAP/JSON) services"
+		},
+	    {
+	    	"Skill": "App Development across a range of platforms - iOS, Android, Windows 8, Windows Phone and Universal Windows Platform (UWP)"
+		},
+		{
+	    	"Skill": "Creation of .NET windows services"
+		},
+	    {
+	    	"Skill": "MVVM"
+		},
+		{
+	    	"Skill": "Processing of XML, JSON and flat file formats (CSV)"
+		},
+	    {
+	    	"Skill": "BDD/TDD"
+		},
+		{
+	    	"Skill": "MS-SQL & T-SQL"
+		},
+	    {
+	    	"Skill": "SOLID"
+		},
+		{
+	    	"Skill": "JavaScript using ExtJS framework"
+		},
+	    {
+	    	"Skill": "Agile/SCRUM"
+		},
+	    {
+	    	"Skill": "Python"
+		}
+	],
+	"Employment": [
+		{
+			"Role": "Senior Software Developer",
+			"Employer" : "REPL Group",
+			"Start" : "2016-04-01",
+			"Tasks" : [
+				{
+					"Task": "Tasked to develop, test and maintain a variety of mobile applications including a stock management application targeting Android devices. This app had to integrate with a variety of hardware barcode scanners and provided a barcode scanning solution using in built cameras."
+				},
+				{
+					"Task": "The mobile applications were developed mainly in **C#** using the cross platform tooling **Xamarin** using **MVVM** methodology. The user interface was developed using native **AXML** for Android."
+				},
+				{
+					"Task": "Created and maintained automated unit, integration and UI tests using a variety of tools such as **NUnit**, **Moq**, **Xamarin Test Cloud** and **SpecFlow**."
+				},
+				{
+					"Task": "Worked in an **Agile/SCRUM** environment."
+				},
+				{
+					"Task": "Integrated a **CI** build process using Atlassian Bamboo."
+				},
+				{
+					"Task": "Developed cross platform scripts in **Python** to help speed up development."
+				},
+				{
+					"Task": "Shared responsibility with releasing and maintaining the quality of the application using tools like HockeyApp."
+				}
+			]
+		},
+		{
+			"Role": "Software Developer",
+			"Employer" : "MixRadio",
+			"Start": "2015-10-01",
+			"End" : "2016-04-01",
+			"Tasks" : [
+				{
+					"Task" : "Tasked to develop, test and maintain the client applications (iOS, Android and Windows Phone) for the music streaming service as part of a medium sized team meeting needs laid out by product owners and the business."
+				},
+				{
+					"Task" : "The applications were developed mainly in **C#** using the cross platform tooling **Xamarin** using **MVVM** methodology with help from the MVVM Cross library. The user interface was developed using native **AXML**, **XCode** and **XAML** for Android, iOS and Windows Phone respectively."
+				},
+				{
+					"Task" : "Created and maintained automated unit, integration and UI tests using a variety of tools such as **NUnit**, **Moq**, **Xamarin Test Cloud** and **SpecFlow**."
+				},
+				{
+					"Task" : "Worked in an **Agile/SCRUM** environment."
+				},
+				{
+					"Task" : "Shared responsibility with releasing and maintaining the quality of the application between cross-platform teams."
+				},
+				{
+					"Task" : "I was tasked with improving the engagement of push notifications provided by the Android application."
+				}
+			]
+		},
+		{
+			"Role": "Senior Software Developer",
+			"Employer" : "Altus Ltd",
+			"Start": "2011-01-01",
+			"End": "2015-10-01",
+			"Tasks" : [
+				{
+					"Task": "Tasked to design, develop, test and maintain products created within the company in a full stack software manner, which were aimed and used within the financial sector."
+				},
+				{
+					"Task": "Developed applications that had **.NET/C#** web and windows services, with supporting **MS-SQL** databases and a **Javascript** front end using the Ext JS framework."
+				},
+				{
+					"Task": "I was hired originally as a graduate developer and promoted to a senior software developer in September 2012."
+				},
+				{
+					"Task": "Assigned lead developer roles in a number of big projects along my career at the company."
+				},
+				{
+					"Task": "Tasked to help teach and develop junior developers in their assigned roles within the projects."
+				},
+				{
+					"Task": "Tasked to develop and maintain software which was used internally to help streamline various parts of the production line and increase efficiency."
+				}
+			]
+		}
+	],
+	"Education": [
+		{
+			"Establishment": "University of Exeter",
+			"Course": "2:1 in BSc in Computer Science",
+			"Start": "2007",
+			"End": "2010",
+			"Description": "I Studied Computer Science for three years and excelled in a variety of subjects including Design and Method for Software Development, Further Programming and Compilers and Interpreters."
+		},
+		{
+			"Establishment": "Truro College",
+			"Course": "Triple Distinction in Software Development National Diploma",
+			"Start": "2004",
+			"End": "2006",
+			"Description": "I studied a software development course at the time of going to college instead of traditional A-Levels because I wasn’t sure what field of computing I wanted to go into. This course gave me a taste of the business and development sides. This is where my love of programming started."
+		}
+	],
+	"PersonalAccomplishments": [
+		{
+			"Accomplishment": "I enjoy exploring new technologies in my spare time. This includes developing Windows Mobile/Windows 10 applications, for which I have released three applications. My first application achieved over 90000 downloads, an average rating of 4 stars and a mention by [Windows Central](https://www.windowscentral.com/5-windows-10-apps-you-should-try-july-8-2016#slide5) by the end of its life."
+		},
+		{
+			"Accomplishment": "My second release, My Daily Wallpaper, was awarded a top award by [AdDuplex](https://twitter.com/AdDuplex/status/748127777082253313), which saw a review by [Windows Central](https://www.windowscentral.com/my-daily-wallpaper-todays-adduplex-hero-app)."
+		},
+		{
+			"Accomplishment": "I am worked on a mobile application for Point, a Kickstarter IoT device, using the company’s public API which was featured in their [newsletter](http://mailchi.mp/minut/summer-has-arrived-minut?e=5f342b2797). The API returns JSON content and uses an OAuth authentication mechanism."
+		},
+		{
+			"Accomplishment": "I developed an Alexa Skill, [Bus Timetable](https://www.amazon.co.uk/David-Kendall-Bus-Timetable/dp/B078JV2JGN/ref=cm_cr_arp_d_product_top?ie=UTF8), which provides bus information using Google’s Directions API. The skill was soft released in the UK and saw around 800 unique users within its first week."
+		}
+	],
+	"Interests": [
+		"I have a passion for computer games and enjoy playing them in my spare time.",
+		"I enjoy watching films of various genres. I particularly enjoy films in the Sci-Fi genre."
+	]
+}

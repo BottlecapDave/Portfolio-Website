@@ -1,0 +1,93 @@
+@import "base.css";
+@import "font.css";
+
+#panel-wrapper
+{
+	margin: 3em 0em;
+	border-top: 1px solid #DDDDDD;
+}
+
+.panel
+{
+	width: 100%;
+	padding: 1em 0em;
+}
+
+.panel-header
+{
+	display: inline-grid;
+	width: 100%;
+}
+
+.panel-header img
+{
+	width: 30%;
+	margin: auto;
+	padding: 1em;
+}
+
+.panel-body
+{
+	padding: 0em 1em;
+	height: 5em;
+}
+
+.panel-body p
+{
+	text-align: justify;
+}
+
+.panel-link
+{
+	margin: 0.5em;
+	background-color: #6ECAFF;
+}
+
+.panel-link p
+{
+	text-align: center;
+	padding: 0.5em;
+}
+
+a .panel-link p
+{
+	color: #FFFFFF;
+}
+
+@media screen and (min-width: 800px) {
+
+	#header 
+	{
+		float: none;
+		width: 43em;
+		display: grid;
+		padding: 5em 0em 2em;
+	}
+
+	#logo-wrapper img 
+	{
+		width: 12em;
+		height: 12em;
+	}
+
+	#logo-wrapper
+	{
+		width: 40em;
+	}
+
+	#logo-text-wrapper
+	{
+		padding: 1.8em 0em;
+	}
+
+	.panel
+	{
+		float: left;
+		width: 33%;
+	}
+
+	.panel-header img
+	{
+		padding: 1.5em;
+	}
+}

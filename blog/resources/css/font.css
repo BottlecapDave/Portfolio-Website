@@ -1,0 +1,38 @@
+#body
+{
+	font-family: arial, sans-serif;
+}
+
+#body-panel
+{
+	color: #AAAAAA;
+}
+
+.post-body
+{
+	margin: 0px;
+	margin: 1em 0px;
+	font-size: 0.9em;
+}
+
+.Label h2, .BlogArchive h2
+{
+	text-align: right;
+	color: #6ECAFF;
+}
+
+#body h3
+{
+	text-align: center;
+	margin: 0.5em;
+}
+
+h3.post-title
+{
+	font-size: 1.5em;
+}
+
+.date-header
+{
+	color: #AAAAAA;
+}
