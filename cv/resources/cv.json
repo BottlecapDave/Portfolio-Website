@@ -262,7 +262,7 @@
 			"Accomplishment": "My second release, My Daily Wallpaper, was awarded a top award by [AdDuplex](https://twitter.com/AdDuplex/status/748127777082253313), which saw a review by [Windows Central](https://www.windowscentral.com/my-daily-wallpaper-todays-adduplex-hero-app)."
 		},
 		{
-			"Accomplishment": "I am worked on a mobile application for Point, a Kickstarter IoT device, using the company’s public API which was featured in their [newsletter](http://mailchi.mp/minut/summer-has-arrived-minut?e=5f342b2797). The API returns JSON content and uses an OAuth authentication mechanism."
+			"Accomplishment": "I worked on a mobile application for Point, a Kickstarter IoT device, using the company’s public API which was featured in their [newsletter](http://mailchi.mp/minut/summer-has-arrived-minut?e=5f342b2797). The API returns JSON content and uses an OAuth authentication mechanism."
 		},
 		{
 			"Accomplishment": "I developed an Alexa Skill, [Bus Timetable](https://www.amazon.co.uk/David-Kendall-Bus-Timetable/dp/B078JV2JGN/ref=cm_cr_arp_d_product_top?ie=UTF8), which provides bus information using Google’s Directions API. The skill was soft released in the UK and saw around 800 unique users within its first week."
