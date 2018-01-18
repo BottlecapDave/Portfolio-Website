@@ -3,7 +3,7 @@
 
 #body
 {
-	max-width: 
+	padding: 2em 0em;
 }
 
 #body-panel
@@ -21,6 +21,18 @@
 	height: 100%;
 }
 
+.section
+{
+	margin: 0px;
+	width: 90vw;
+}
+
+.post-body a img
+{
+	width: 80%;
+	height: auto;
+}
+
 @media screen and (min-width: 800px) 
 {
 	#body-panel
@@ -33,5 +45,16 @@
 	{
 		border-left: 1px solid #DDDDDD;
 		width: 74%;
+	}
+
+	.section
+	{
+		margin: 0px 1em;
+		width: auto;
+	}
+
+	.post-body a img
+	{
+		width: auto;
 	}
 }

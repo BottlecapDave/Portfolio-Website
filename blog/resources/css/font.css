@@ -35,4 +35,19 @@ h3.post-title
 .date-header
 {
 	color: #AAAAAA;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.comments h4
+{
+	font-size: 1.2em;
+}
+
+@media screen and (min-width: 800px) 
+{
+	.date-header
+	{
+		text-align: right;
+	}
 }
