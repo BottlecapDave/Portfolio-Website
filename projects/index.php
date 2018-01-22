@@ -48,6 +48,10 @@
 					<p class="external-links"><a href="../products/bustimetable/app-resources/privacypolicy/index.html" title="View the privacy policy for Bus Timetable">Privacy Policy</a> | <a href="../products/bustimetable/app-resources/termsofservice/index.html" title="View the terms of use for Bus Timetable">Terms of Use</a></p>
 				</div>
 			</div>
+			<div class="product-review">
+				<p class="product-review-quote">"Finally...an Alexa bus skill that works"</p>
+				<p class="product-review-source"><a href="https://www.amazon.co.uk/gp/customer-reviews/R1H9NVV1HJFR6Q/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B078JV2JGN" title="View the user review on Amazon">James McDermott on Amazon</a></p>
+			</div>
 			<div class="product-wrapper">
 				<div class="product-info">
 					<h4>Point Companion</h4>
