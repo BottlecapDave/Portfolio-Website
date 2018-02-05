@@ -57,7 +57,7 @@
 						<?php $skillSize = sizeof($cv->Skills);
 						for ($i = 0; $i < $skillSize; $i++) {
 							if ($i % 2 == 0) {
-								echo "<li><p>{$cv->Skills[$i]->Skill}</p</li>\n";
+								echo "<li><p id=\"{$cv->Skills[$i]->Id}\" onclick=\"highlightSkill(this.id)\">{$cv->Skills[$i]->Skill}</p></li>\n";
 							}
 						}
 						?>
@@ -68,7 +68,7 @@
 						<?php $skillSize = sizeof($cv->Skills);
 						for ($i = 0; $i < $skillSize; $i++) {
 							if ($i % 2 == 1) {
-								echo "<li><p>{$cv->Skills[$i]->Skill}</p</li>\n";
+								echo "<li><p id=\"{$cv->Skills[$i]->Id}\" onclick=\"highlightSkill(this.id)\">{$cv->Skills[$i]->Skill}</p></li>\n";
 							}
 						}
 						?>
@@ -93,7 +93,20 @@
 
 				foreach ($item->Duties as $duty) {
 					$convertedDuty = $Parsedown->text($duty->Duty);
-					echo "<li class=\"employment-task\">{$convertedDuty}</li>\n";
+					
+					echo "<li class=\"employment-task\">";
+
+					foreach ($duty->Skills as $skill) {
+						echo "<div class=\"skill-{$skill}\">";
+					}
+
+					echo $convertedDuty;
+
+					foreach ($duty->Skills as $skill) {
+						echo "</div>";
+					}
+
+					echo "</li>\n";
 				}
 
 				echo "</ul>\n";
@@ -148,4 +161,6 @@
 			<p>Social media icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
 		</div>
 	</body>
+
+	<script type="text/javascript" src="./resources/highlight.js"></script>
 </html>

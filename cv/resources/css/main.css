@@ -19,6 +19,15 @@ ul
 	padding: 0em 1.5em;
 }
 
+.skill-highlight
+{
+	content: "";
+	background: #6ECAFF;
+	transition: all 1s ease 0s;
+	z-index: -1;
+	right: 0;
+}
+
 @media screen and (min-width: 800px) {
 	#skills-container 
 	{

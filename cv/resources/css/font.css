@@ -15,3 +15,20 @@ h5 {
 	color: #666;
 	font-weight: 900;
 }
+
+.skill-panel ul li p
+{
+	color: #6ECAFF;
+	text-decoration: none;
+}
+
+.skill-highlight strong
+{
+	color: #FFFFFF;
+	font-weight: 900;
+}
+
+.skill-panel ul li p.skill-highlight, .skill-highlight p
+{
+	color: #FFFFFF;
+}
