@@ -50,7 +50,7 @@
 			</div>
 			<div class="product-review">
 				<p class="product-review-quote">"Finally...an Alexa bus skill that works"</p>
-				<p class="product-review-source"><a href="https://www.amazon.co.uk/gp/customer-reviews/R1H9NVV1HJFR6Q/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B078JV2JGN" title="View the user review on Amazon">James McDermott on Amazon</a></p>
+				<p class="product-review-source"><a href="https://www.amazon.co.uk/gp/customer-reviews/R1H9NVV1HJFR6Q/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B078JV2JGN" title="View the user review on Amazon">User review on Amazon by James McDermott</a></p>
 			</div>
 			<div class="product-wrapper">
 				<div class="product-info">
