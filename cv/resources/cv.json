@@ -1,5 +1,5 @@
 {
-	"Profile": "I am a proficient, hardworking and loyal person with 7 years of commercial experience. I aim to develop efficient, clean and easily maintainable code primarily in the C# language. I also expand this philosophy to any new languages I may be exposed to. I am interested in learning new technologies outside of work, which has lead to my recent roles at MixRadio and REPL Group through the self learning of Windows application development and Xamarin.\n\nI am seeking a role where I can take my existing experience and use it to develop new and interesting experiences, as well as expand my capabilities where possible.",
+	"Profile": "I am a proficient, hardworking and loyal person with 7 years of commercial experience. I aim to develop efficient, clean and easily maintainable code primarily in the C# language. I also expand this philosophy to any new languages I may be exposed to. I am interested in learning new technologies outside of work, which has led to my recent roles at MixRadio and REPL Group through the self learning of Windows application development and Xamarin.\n\nI am seeking a role where I can take my existing experience and use it to develop new and interesting experiences, as well as expand my capabilities where possible.",
 	"Skills": [
 		{
 			"Id" : "c#",
@@ -14,6 +14,7 @@
 	    	"Skill": "Rest web service integration",
 			"Keywords": [
 				"rest",
+				"restservices",
 				"restwebservices"
 			]
 		},
@@ -130,7 +131,7 @@
 					]
 				},
 				{
-					"Duty": "The mobile applications were developed mainly in **C#** using the cross platform tooling **Xamarin** using **MVVM** methodology. The user interface was developed using native **AXML** for Android.",
+					"Duty": "The mobile applications are developed mainly in **C#** using the cross platform tooling **Xamarin** and **MVVM** methodology. The user interface is developed using native **AXML** for Android.",
 					"Skills": [
 						"c#",
 						"mobileappdev",
@@ -163,6 +164,9 @@
 				{
 					"Duty": "I share responsibility with releasing and maintaining the quality of the application using tools like HockeyApp."
 				}
+			],
+			"Skills": [
+				"solid"
 			]
 		},
 		{
@@ -172,14 +176,14 @@
 			"End" : "2016-04-01",
 			"Duties" : [
 				{
-					"Duty" : "I was tasked to develop, test and maintain the client applications (iOS, Android and Windows Phone) for the music streaming service as part of a medium sized team meeting needs laid out by product owners and the business.",
+					"Duty" : "I was tasked to develop, test and maintain the client applications (iOS, Android and Windows Phone) for the music streaming service as part of a medium sized team, meeting needs laid out by product owners and the business.",
 					"Skills": [
 						"c#",
 						"mobileappdev"
 					]
 				},
 				{
-					"Duty" : "The applications were developed mainly in **C#** using the cross platform tooling **Xamarin** using **MVVM** methodology with help from the MVVM Cross library. The user interface was developed using native **AXML**, **XCode** and **XAML** for Android, iOS and Windows Phone respectively.",
+					"Duty" : "The applications were developed mainly in **C#** using the cross platform tooling **Xamarin** and **MVVM** methodology, with help from the MVVM Cross library. The user interface was developed using native **AXML**, **XCode** and **XAML** for Android, iOS and Windows Phone respectively.",
 					"Skills": [
 						"c#",
 						"mobileappdev",
@@ -209,6 +213,9 @@
 						"mobileappdev"
 					]
 				}
+			],
+			"Skills": [
+				"solid"
 			]
 		},
 		{
