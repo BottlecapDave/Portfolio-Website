@@ -1,0 +1,64 @@
+@import "font.css";
+
+body {
+	width: 100%;
+}
+
+#header {
+	width: 98%;
+	display: inline-block;
+	border-bottom: 1px solid #AAA;
+	padding: 1%;
+	margin-bottom: 1.5em;
+}
+
+#header-left {
+	float: left;
+	width: 50%;
+}
+
+#header-right {
+	float: right;
+	width: auto;
+}
+
+#header-right .contact-container {
+	width: 100%;
+	display: block;
+	margin: 2px 0px;
+}
+
+#header-right .contact-container p {
+	float: left;
+	margin: 0 auto;
+	margin-top: 3px;
+}
+
+#header-right .contact-container img {
+	padding: 0px 0px 0px 12px;
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+}
+
+#container {
+	display: table;
+}
+
+#skills 
+{
+	display: flex;
+}
+
+#skills-list-odd, #skills-list-even {
+	float: left;
+	width: 50%;
+}
+
+#employment {
+	float: none;
+}
+
+ul {
+	margin: 10px 0px;
+}
