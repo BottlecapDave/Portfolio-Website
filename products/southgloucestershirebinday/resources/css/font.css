@@ -1,0 +1,41 @@
+p, h1, h2, h3, h4, h5, #left-panel #twitter_div ul li
+{
+	margin: 0px;
+	font-family: arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, a
+{
+	color: #6ECAFF;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+h1
+{
+	padding-top: 0.8em;
+	font-size: 1em;
+	color: #FFF;
+}
+
+h2
+{
+	margin: 10px;
+}
+
+}
+
+h5
+{
+	font-size: 1em;
+}
+
+p
+{
+	margin: 10px;
+	font-size: 0.8em;
+}
