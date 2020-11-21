@@ -4,10 +4,32 @@
   position: relative;
 
   .contact-wrapper {
+    position: fixed;
+    padding: $spacing-m $spacing-s;
+    left: 0;
+    top: 45%;
+    -ms-transform: translateY(-45%);
+    transform: translateY(-45%);
+    display: flex;
+    flex-direction: column;
+    background-color: $neutral;
 
+    border-top: $secondary-colour 1px solid;
+    border-right: $secondary-colour 1px solid;
+    border-bottom: $secondary-colour 1px solid;
+
+    box-shadow: 2px 2px 5px $secondary-colour;
+
+    a {
+      text-decoration: none;
+      
+      .icon {
+        font-size: $font-size-xl;
+      }
+    }
   }
 
   .contact-content {
-    
+
   }
 }
