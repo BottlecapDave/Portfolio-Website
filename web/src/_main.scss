@@ -1,0 +1,90 @@
+@import "./_variables.scss";
+@import "./_armstrong.scss";
+
+body {
+  margin: 0px;
+  width: 100%;
+
+  font-family: "Poppins", "Sans-Serif";
+}
+
+h2, h3, h4, h5 {
+  color: $primary-colour;
+}
+
+h1 {
+  font-size: $font-size-l;
+}
+
+h3 {
+  font-size: $font-size-ml;
+}
+
+h4 {
+  font-size: $font-size-m;
+}
+
+h5 {
+  font-size: $font-size-sm;
+}
+
+p {
+  font-size: $font-size-sm;
+}
+
+.button {
+  background: transparent;
+  border: 3px solid $primary-colour;
+  padding: $spacing-sm $spacing-m;
+  font-weight: bold;
+  border-radius: 4px;
+  color: $primary-colour;
+  cursor: pointer;
+
+  &.inverse {
+    border-color: $primary-colour-inverse;
+    color: $primary-colour-inverse;
+
+    &:hover {
+      color: $primary-colour;
+      background: $primary-colour-inverse;
+    }
+  }
+
+  &:hover {
+    color: $primary-colour-inverse;
+    background: $primary-colour;
+  }
+}
+
+a, .link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: $link-colour;
+}
+
+.icon {
+  font-family: 'IcoMoon-Free';
+}
+
+@media only screen and (min-width: $tablet-min-width) {
+  h1 {
+    font-size: $font-size-xl;
+  }
+  
+  h3 {
+    font-size: $font-size-l;
+  }
+  
+  h4 {
+    font-size: $font-size-ml;
+  }
+  
+  h5 {
+    font-size: $font-size-m;
+  }
+  
+  p {
+    font-size: $font-size-m;
+  }
+}

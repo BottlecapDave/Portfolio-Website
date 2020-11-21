@@ -1,0 +1,33 @@
+@import "../../node_modules/@rocketmakers/armstrong/dist/imports";
+@import "../../node_modules/@rocketmakers/armstrong/dist/core";
+@import "../../node_modules/@rocketmakers/armstrong/dist/form";
+@import "../../node_modules/@rocketmakers/armstrong/dist/navigation";
+@import "../../node_modules/@rocketmakers/armstrong/dist/animation";
+@import "../../node_modules/@rocketmakers/armstrong/dist/responsive";
+
+@import "./_icomoon.scss";
+
+@import "./_variables.scss";
+
+.armstrong-menu-button {
+  background-color: transparent;
+
+  .icon {
+    color: $secondary-colour;
+  }
+}
+
+.armstrong-menu {
+  background-color: $secondary-colour;
+  color: $secondary-colour-inverse;
+
+  .armstrong-menu-button {
+    .icon {
+      color: $secondary-colour-inverse;
+    }
+  }
+}
+
+.dialog {
+  width: 100% !important;
+}

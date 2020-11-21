@@ -1,0 +1,52 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "description": "",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby info --clipboard && gatsby clean && gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@rocketmakers/armstrong": "0.0.1-alpha.63",
+    "aos": "2.3.4",
+    "gatsby": "2.27.0",
+    "local-storage": "^2.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-helmet": "6.1.0"
+  },
+  "devDependencies": {
+    "@types/aos": "3.0.3",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "@types/react-helmet": "6.1.0",
+    "gatsby-image": "2.6.0",
+    "gatsby-plugin-advanced-sitemap": "1.5.6",
+    "gatsby-plugin-manifest": "2.7.0",
+    "gatsby-plugin-netlify": "2.6.0",
+    "gatsby-plugin-netlify-cache": "1.2.0",
+    "gatsby-plugin-offline": "3.5.0",
+    "gatsby-plugin-react-helmet": "3.5.0",
+    "gatsby-plugin-sass": "2.6.0",
+    "gatsby-plugin-sharp": "2.9.0",
+    "gatsby-plugin-web-font-loader": "1.0.4",
+    "gatsby-source-filesystem": "2.6.0",
+    "gatsby-transformer-sharp": "2.7.0",
+    "node-sass": "4.14.1",
+    "prettier": "2.2.0",
+    "typescript": "4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BottlecapDave/Portfolio-Website"
+  },
+  "bugs": {
+    "url": "https://github.com/BottlecapDave/Portfolio-Website/issues"
+  }
+}

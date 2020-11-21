@@ -1,6 +1,6 @@
 //import snarkdown from 'resources/snarkdown';
 
-var filepath = "../resources/cv.json";
+var filepath = "./resources/cv.json";
 
 function readFile() {
 	var rawFile = new XMLHttpRequest();
@@ -29,14 +29,14 @@ function readFile() {
 
 function process_brief(cv, mobile) {
     var header = document.getElementById("header-right");
-    process_brief_info(header, cv.Location, "resources/images/location.png")
+    process_brief_info(header, cv.Location, "resources/print/images/location.png")
 
     if (mobile !== null) {
-        process_brief_info(header, mobile, "resources/images/phone.png")
+        process_brief_info(header, mobile, "resources/print/images/phone.png")
     }
 
-    process_brief_info(header, cv.Email, "resources/images/email.png")
-    process_brief_info(header, cv.Website, "resources/images/web.png")
+    process_brief_info(header, cv.Email, "resources/print/images/email.png")
+    process_brief_info(header, cv.Website, "resources/print/images/web.png")
 }
 
 function process_brief_info(element, text, imageSource) {

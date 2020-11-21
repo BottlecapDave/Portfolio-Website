@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "IcoMoon-Free";
+  src: url("/webfonts/IcoMoon-Free.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: 'IcoMoon-Free';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga"1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\E9BD";
+}
+
+.icon-cross:before,
+.icon-cross3:before {
+  content: "\EA0F";
+}
+
+.icon-twitter:before {
+  content: "\EA96";
+}
+
+.icon-github:before {
+  content: "\EAAF";
+}
+
+.icon-linkedin:before {
+  content: "\EAC8";
+}
+
+.icon-mail:before {
+  content: "\E945";
+}

@@ -1,0 +1,40 @@
+$tablet-min-width: 700px;
+$desktop-min-width: 1024px;
+$desktop-max-width: 1080px;
+
+$spacing-xs: 5px;
+$spacing-s: 10px;
+$spacing-sm: 15px;
+$spacing-m: 20px;
+$spacing-ml: 30px;
+$spacing-l: 40px;
+$spacing-xl: 60px;
+$spacing-xxl: 100px;
+
+$font-size-xs: 0.6em;
+$font-size-s: 0.8em;
+$font-size-sm: 1em;
+$font-size-m: 1.2em;
+$font-size-ml: 1.3em;
+$font-size-l: 1.5em;
+$font-size-xl: 1.7em;
+$font-size-xxl: 3em;
+
+$nav-height-mobile: 60px;
+$nav-height: 100px;
+$nav-booking-reminder-mobile: 20px;
+
+$primary-colour: #BD8900;
+$primary-colour-inverse: #FFFFFF;
+
+$primary-colour-light: saturate($primary-colour, 20%);
+
+$secondary-colour: #B7B4A1;
+$secondary-colour-inverse: #FFFFFF;
+
+$gray-colour: #2D2D2D;
+$gray-colour-light: #8D8D8D;
+
+$link-colour: $primary-colour;
+
+$white: white;
