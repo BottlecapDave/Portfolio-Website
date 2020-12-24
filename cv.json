@@ -1,0 +1,139 @@
+{
+  "basics": {
+    "name": "David Kendall",
+    "label": "Senior Software Developer",
+    "picture": "",
+    "email": "me@davidskendall.co.uk",
+    "phone": "",
+    "website": "http://davidskendall.co.uk",
+    "summary": "A summary of John Doe...",
+    "location": {
+      "city": "Bristol",
+      "countryCode": "UK"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "BottlecapDave",
+        "url": "http://twitter.com/BottlecapDave"
+      },
+      {
+        "network": "GitHub",
+        "username": "BottlecapDave",
+        "url": "https://github.com/BottlecapDave"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "David Kendall",
+        "url": "https://www.linkedin.com/in/david-kendall-90a86225/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Rocketmakers",
+      "position": "Senior Software Developer",
+      "website": "https://www.rocketmakers.com",
+      "startDate": "2018-08-09",
+      "endDate": "",
+      "summary": "Hired to develop and lead a variety of projects from project management tools to 3D content delivery services using a variety of toolsets.",
+      "highlights": [
+        "Designed and built the backend using .NET Core for a project management tool which won an innovation award for the company with its unique design.",
+        "Designed and built the backend for a 3D content decisioning and delivery platform. It was developed using Typescript/Node with Kubernetes in a microservice architecture."
+      ]
+    },
+    {
+      "company": "REPL Group",
+      "position": "Senior Software Developer",
+      "website": "https://www.replgroup.com",
+      "startDate": "2016-04-01",
+      "endDate": "2018-08-01",
+      "summary": "Hired to develop, test and maintain mobile applications for the retail sector using Xamarin.",
+      "highlights": [
+        "Developed, tested and maintained a stock management application targeting Android devices as part of a small team. This app had to integrate with a variety of hardware barcode scanners and provided a barcode scanning solution using in built cameras.",
+        ""
+      ]
+    },
+    {
+      "company": "Mix Radio",
+      "position": "Software Developer",
+      "website": "https://en.wikipedia.org/wiki/MixRadio",
+      "startDate": "2016-04-01",
+      "endDate": "2015-10-01",
+      "highlights": [
+        "Developed, tested and maintained the client applications (iOS, Android and Windows Phone) for the music streaming service as part of a medium sized team, meeting needs laid out by product owners and the business.",
+        "Tasked to improve the engagement of push notifications provided by the Android application."
+      ]
+    },
+    {
+      "company": "Altus Ltd",
+      "position": "Senior Software Developer",
+      "website": "http://www.replgroup.com",
+      "startDate": "2015-10-01",
+      "endDate": "2011-01-01",
+      "highlights": [
+        "Developed, tested and maintained a stock management application targeting Android devices as part of a small team. This app had to integrate with a variety of hardware barcode scanners and provided a barcode scanning solution using in built cameras.",
+        ""
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Exeter University",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2007-09-01",
+      "endDate": "2010-07-01",
+      "gpa": "2:1",
+      "courses": []
+    },
+    {
+      "institution": "Truro College",
+      "area": "Software Development",
+      "studyType": "National Diploma",
+      "startDate": "2006-07-01",
+      "endDate": "2004-09-01",
+      "gpa": "Triple Distinction",
+      "courses": []
+    }
+  ],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference..."
+  }]
+}
+  

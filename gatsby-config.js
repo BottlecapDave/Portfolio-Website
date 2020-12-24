@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "The Barley Sheaf at Gorran",
+    title: "David Kendall | Portfolio",
     url: "https://www.davidskendall.co.uk",
     siteUrl: "https://www.davidskendall.co.uk",
     twitterUsername: "@BottlecapDave",

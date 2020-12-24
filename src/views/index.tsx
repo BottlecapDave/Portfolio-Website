@@ -46,7 +46,7 @@ export const Home = (props: IHomeProps) => {
     <ContactWrapper>
       <div className="intro">
         <div className="intro-content">
-        I am a proficient, hardworking and loyal person with over {new Date().getFullYear() - 2011} years of industry experience. My aim is always to develop efficient, clean and easily maintainable code. I bring this philosophy to any new technology I may be exposed to. <br /><br />
+        I am a proficient, hardworking and loyal person with over {new Date().getFullYear() - 2011} years of industry experience. My aim is to always develop efficient, clean and easily maintainable code. I bring this philosophy to any new technology I may be exposed to. <br /><br />
         I am interested in learning new technologies outside of work, which has led to my recent roles at MixRadio and REPL Group through the self learning of Windows application development and Xamarin.
         </div>
       </div>
