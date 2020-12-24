@@ -10,7 +10,11 @@ export interface IHomeProps {
 export const Home = (props: IHomeProps) => {
 
   const calculateClipAmount = () => {
-    return Math.max(0, window.scrollY - (window.innerHeight * 0.25));
+    if (typeof window !== `undefined`) {
+      return Math.max(0, window.scrollY - (window.innerHeight * 0.25));
+    }
+
+    return 0;
   }
 
   const [clipAmount, setClipAmount] = React.useState<number>(calculateClipAmount());
