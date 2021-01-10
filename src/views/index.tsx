@@ -1,11 +1,13 @@
 import * as React from 'react';
 import { ContactWrapper } from '../components/contactWrapper';
 import { Footer } from '../components/footer';
+import { SEO } from '../components/seo';
 
 import './index.scss';
+import { IMetadata } from './types';
 
 export interface IHomeProps {
-
+  metadata: IMetadata;
 }
 
 export const Home = (props: IHomeProps) => {
@@ -35,6 +37,9 @@ export const Home = (props: IHomeProps) => {
   }, []);
 
   return <div className="home-container">
+    <SEO title="David Kendall"
+				 description="The portfolio of software developer David Kendall."
+		     url={props.metadata.siteUrl} />
     <div className="home-header">
       <div className="home-header-image">
         <div className="home-header-image-bumper" />
@@ -62,6 +67,9 @@ export const Home = (props: IHomeProps) => {
 
 export const UnderConstruction = (props: IHomeProps) => {
   return <div className="home-container">
+    <SEO title="David Kendall"
+				 description="The portfolio of software developer David Kendall. Currently under construction."
+		     url={props.metadata.siteUrl} />
     <div className="home-header">
       <div className="home-header-image">
         <div className="home-header-image-bumper" />

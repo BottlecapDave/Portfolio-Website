@@ -1,6 +1,12 @@
 import * as React from 'react';
-import { Home, UnderConstruction } from '../views/index';
+import { extractCoreData } from '../utils/gatsby';
+import { Home, IHomeProps, UnderConstruction } from '../views/index';
 
 export default () => {
-  return <UnderConstruction />
+
+  const props: IHomeProps = {
+    ...extractCoreData()
+  }
+
+  return <UnderConstruction {...props} />
 };

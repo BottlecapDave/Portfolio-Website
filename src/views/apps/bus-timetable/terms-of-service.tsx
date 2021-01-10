@@ -1,10 +1,19 @@
 import * as React from 'react';
 import { Footer } from '../../../components/footer';
+import { SEO } from '../../../components/seo';
+import { IMetadata } from '../../types';
 
 import '../index.scss';
 
-export const TermsOfService = () => {
+export interface IProps {
+	metadata: IMetadata;
+}
+
+export const TermsOfService = (props: IProps) => {
   return <div>
+		<SEO title="Terms Of Service | Bus Timetable"
+				 description="The terms of service for Bus Timetable Alexa skill."
+		     url={props.metadata.siteUrl} />
     <div className="wrapper">
 			<div className="header">
 				<div className="header-content">

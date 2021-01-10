@@ -1,6 +1,12 @@
 import * as React from 'react';
-import { PrivacyPolicy } from '../../../views/apps/bus-timetable/privacy-policy';
+import { extractCoreData } from '../../../utils/gatsby';
+import { PrivacyPolicy, IProps } from '../../../views/apps/bus-timetable/privacy-policy';
 
 export default () => {
-  return <PrivacyPolicy />
+
+  const props: IProps = {
+    ...extractCoreData()
+  }
+
+  return <PrivacyPolicy {...props} />
 };

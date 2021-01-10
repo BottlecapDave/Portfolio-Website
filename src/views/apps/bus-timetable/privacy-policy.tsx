@@ -1,10 +1,19 @@
 import * as React from 'react';
 import { Footer } from '../../../components/footer';
+import { SEO } from '../../../components/seo';
+import { IMetadata } from '../../types';
 
 import '../index.scss';
 
-export const PrivacyPolicy = () => {
+export interface IProps {
+	metadata: IMetadata;
+}
+
+export const PrivacyPolicy = (props: IProps) => {
   return <div>
+		<SEO title="Privacy Policy | Bus Timetable"
+				description="The privacy policy for Bus Timetable Alexa skill."
+		    url={props.metadata.siteUrl} />
     <div className="wrapper">
 			<div className="header">
 				<div className="header-content">

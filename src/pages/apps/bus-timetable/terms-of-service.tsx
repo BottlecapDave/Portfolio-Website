@@ -1,6 +1,11 @@
 import * as React from 'react';
-import { TermsOfService } from '../../../views/apps/bus-timetable/terms-of-service';
+import { extractCoreData } from '../../../utils/gatsby';
+import { IProps, TermsOfService } from '../../../views/apps/bus-timetable/terms-of-service';
 
 export default () => {
-  return <TermsOfService />
+  const props: IProps = {
+    ...extractCoreData()
+  }
+
+  return <TermsOfService {...props} />
 };

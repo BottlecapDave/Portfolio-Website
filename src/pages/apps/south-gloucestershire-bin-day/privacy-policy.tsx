@@ -1,6 +1,12 @@
 import * as React from 'react';
-import { PrivacyPolicy } from '../../../views/apps/south-gloucestershire-bin-day/privacy-policy';
+import { extractCoreData } from '../../../utils/gatsby';
+import { IProps, PrivacyPolicy } from '../../../views/apps/south-gloucestershire-bin-day/privacy-policy';
 
 export default () => {
-  return <PrivacyPolicy />
+
+  const props: IProps = {
+    ...extractCoreData()
+  }
+
+  return <PrivacyPolicy {...props} />
 };
