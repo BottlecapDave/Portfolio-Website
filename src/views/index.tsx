@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { ContactWrapper } from '../components/contactWrapper';
+import { Footer } from '../components/footer';
 
 import './index.scss';
 
@@ -54,6 +55,26 @@ export const Home = (props: IHomeProps) => {
         I am interested in learning new technologies outside of work, which has led to my recent roles at MixRadio and REPL Group through the self learning of Windows application development and Xamarin.
         </div>
       </div>
+      <Footer />
     </ContactWrapper>
+  </div>
+}
+
+export const UnderConstruction = (props: IHomeProps) => {
+  return <div className="home-container">
+    <div className="home-header">
+      <div className="home-header-image">
+        <div className="home-header-image-bumper" />
+        <div className="home-header-image-wrapper">
+          <div className="home-header-image-content" style={{ clipPath: `circle(${Math.max(0, 200)}px at center)`}} />
+        </div>
+        <div className="home-header-image-bumper" />
+      </div>
+      <div className="home-header-spacer" />
+      <div className="home-header-welcome">
+        <h1>Under Construction</h1>
+      </div>
+    </div>
+    <Footer />
   </div>
 }

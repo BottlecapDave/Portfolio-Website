@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Home } from '../views/index';
+import { Home, UnderConstruction } from '../views/index';
 
 export default () => {
-  return <Home />
+  return <UnderConstruction />
 };
