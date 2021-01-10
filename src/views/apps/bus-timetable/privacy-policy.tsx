@@ -8,7 +8,7 @@ export const PrivacyPolicy = () => {
     <div className="wrapper">
 			<div className="header">
 				<div className="header-content">
-					<img src="../../icons/bus-timetable.png" />
+					<img src="/icons/bus-timetable.png" />
 					<h1>Privacy Policy | Bus Timetable</h1>
 				</div>
 			</div>

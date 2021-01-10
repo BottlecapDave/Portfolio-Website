@@ -8,7 +8,7 @@ export const TermsOfService = () => {
     <div className="wrapper">
 			<div className="header">
 				<div className="header-content">
-					<img src="../../icons/south-gloucestershire-bin-day.png" />
+					<img src="/icons/south-gloucestershire-bin-day.png" />
 					<h1>Terms Of Service | South Gloucestershire Bin Day</h1>
 				</div>
 			</div>
