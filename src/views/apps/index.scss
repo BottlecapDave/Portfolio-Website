@@ -1,0 +1,43 @@
+@import "../../_main";
+
+.wrapper
+{
+  width: 100%;
+  
+  .header
+  {
+    width: 100%;
+    padding: $spacing-m $spacing-s;
+    background: $primary-colour;
+
+    .header-content {
+      display: flex;
+      margin: 0px auto;
+      max-width: $desktop-max-width;
+
+      img {
+        
+      }
+
+      h1 {
+        margin: 0px;
+      }
+    }
+
+    h1 {
+      color: $primary-colour-inverse;
+    }
+  }
+
+  .body
+  {
+    margin: auto;
+    clear: both;
+    padding: $spacing-m;
+    max-width: $desktop-max-width;
+
+    .effective-date {
+      font-style: italic;
+    }
+  }
+}

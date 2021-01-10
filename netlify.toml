@@ -1,0 +1,15 @@
+[[redirects]]
+  from = "/products/bustimetable/app-resources/privacypolicy/index.html"
+  to = "/apps/bus-timetable/privacy-policy"
+
+[[redirects]]
+  from = "/products/bustimetable/app-resources/termsofservice/index.html"
+  to = "/apps/bus-timetable/terms-of-service"
+
+[[redirects]]
+  from = "/products/southgloucestershirebinday/app-resources/privacypolicy/index.html"
+  to = "/apps/south-gloucestershire-bin-day/privacy-policy"
+
+[[redirects]]
+  from = "/products/southgloucestershirebinday/app-resources/termsofuse/index.html"
+  to = "/apps/south-gloucestershire-bin-day/terms-of-service"
