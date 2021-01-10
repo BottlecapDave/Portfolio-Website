@@ -9,7 +9,6 @@ module.exports = {
     title: "David Kendall | Portfolio",
     url: "https://www.davidskendall.co.uk",
     siteUrl: "https://www.davidskendall.co.uk",
-    twitterUsername: "@BottlecapDave",
   },
   plugins: [
     {
@@ -51,6 +50,6 @@ module.exports = {
           families: ['PT Serif', 'Poppins']
         }
       }
-    },
+    }
   ]
 }
